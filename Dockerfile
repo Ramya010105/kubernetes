@@ -1,5 +1,5 @@
 FROM openjdk:11-jdk-slim
-WORKDIR/app
+WORKDIR /app
 COPY . .
 RUN javac SampleName.java
-CMD["java","SampleName"]
+CMD ["java","SampleName"]
